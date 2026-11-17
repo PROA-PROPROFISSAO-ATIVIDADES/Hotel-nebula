@@ -1,0 +1,594 @@
+[
+  {
+    "_id": {
+      "$oid": "a50000000000000000000001"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000001"
+    },
+    "hospede": {
+      "nome": "Mariana Costa",
+      "email": "mariana.costa@email.com"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000201"
+    },
+    "quarto": {
+      "numero": 201,
+      "categoria": "luxo"
+    },
+    "dataCheckin": {
+      "$date": "2026-03-10T18:00:00.000Z"
+    },
+    "dataCheckout": {
+      "$date": "2026-03-13T15:00:00.000Z"
+    },
+    "noites": 3,
+    "numHospedes": 2,
+    "precoDiariaCentavos": 65000,
+    "valorDiariasCentavos": 195000,
+    "status": "concluida",
+    "canal": "site",
+    "criadaEm": {
+      "$date": "2026-02-20T14:00:00.000Z"
+    },
+    "historicoStatus": [
+      {
+        "status": "criada",
+        "em": {
+          "$date": "2026-02-20T14:00:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "confirmada",
+        "em": {
+          "$date": "2026-02-20T14:05:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "concluida",
+        "em": {
+          "$date": "2026-03-13T15:00:00.000Z"
+        },
+        "por": "funcionario",
+        "porId": {
+          "$oid": "a30000000000000000000001"
+        }
+      }
+    ],
+    "observacoes": "Aniversário de casamento"
+  },
+  {
+    "_id": {
+      "$oid": "a50000000000000000000002"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000002"
+    },
+    "hospede": {
+      "nome": "Carlos Ferreira",
+      "email": "carlos.ferreira@email.com"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000101"
+    },
+    "quarto": {
+      "numero": 101,
+      "categoria": "standard"
+    },
+    "dataCheckin": {
+      "$date": "2026-03-22T18:00:00.000Z"
+    },
+    "dataCheckout": {
+      "$date": "2026-03-24T15:00:00.000Z"
+    },
+    "noites": 2,
+    "numHospedes": 1,
+    "precoDiariaCentavos": 28000,
+    "valorDiariasCentavos": 56000,
+    "status": "concluida",
+    "canal": "telefone",
+    "criadaEm": {
+      "$date": "2026-03-10T14:00:00.000Z"
+    },
+    "historicoStatus": [
+      {
+        "status": "criada",
+        "em": {
+          "$date": "2026-03-10T14:00:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "confirmada",
+        "em": {
+          "$date": "2026-03-10T14:05:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "concluida",
+        "em": {
+          "$date": "2026-03-24T15:00:00.000Z"
+        },
+        "por": "funcionario",
+        "porId": {
+          "$oid": "a30000000000000000000001"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "a50000000000000000000003"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000001"
+    },
+    "hospede": {
+      "nome": "Mariana Costa",
+      "email": "mariana.costa@email.com"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000301"
+    },
+    "quarto": {
+      "numero": 301,
+      "categoria": "suite presidencial"
+    },
+    "dataCheckin": {
+      "$date": "2026-04-05T18:00:00.000Z"
+    },
+    "dataCheckout": {
+      "$date": "2026-04-09T15:00:00.000Z"
+    },
+    "noites": 4,
+    "numHospedes": 3,
+    "precoDiariaCentavos": 120000,
+    "valorDiariasCentavos": 480000,
+    "status": "concluida",
+    "canal": "site",
+    "criadaEm": {
+      "$date": "2026-03-15T14:00:00.000Z"
+    },
+    "historicoStatus": [
+      {
+        "status": "criada",
+        "em": {
+          "$date": "2026-03-15T14:00:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "confirmada",
+        "em": {
+          "$date": "2026-03-15T14:05:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "concluida",
+        "em": {
+          "$date": "2026-04-09T15:00:00.000Z"
+        },
+        "por": "funcionario",
+        "porId": {
+          "$oid": "a30000000000000000000001"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "a50000000000000000000004"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000003"
+    },
+    "hospede": {
+      "nome": "Ana Beatriz Lima",
+      "email": "ana.lima@email.com"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000202"
+    },
+    "quarto": {
+      "numero": 202,
+      "categoria": "luxo"
+    },
+    "dataCheckin": {
+      "$date": "2026-04-12T18:00:00.000Z"
+    },
+    "dataCheckout": {
+      "$date": "2026-04-15T15:00:00.000Z"
+    },
+    "noites": 3,
+    "numHospedes": 2,
+    "precoDiariaCentavos": 58000,
+    "valorDiariasCentavos": 174000,
+    "status": "concluida",
+    "canal": "agencia",
+    "criadaEm": {
+      "$date": "2026-03-30T14:00:00.000Z"
+    },
+    "historicoStatus": [
+      {
+        "status": "criada",
+        "em": {
+          "$date": "2026-03-30T14:00:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "confirmada",
+        "em": {
+          "$date": "2026-03-30T14:05:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "concluida",
+        "em": {
+          "$date": "2026-04-15T15:00:00.000Z"
+        },
+        "por": "funcionario",
+        "porId": {
+          "$oid": "a30000000000000000000001"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "a50000000000000000000005"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000004"
+    },
+    "hospede": {
+      "nome": "John Smith",
+      "email": "john.smith@email.com"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000102"
+    },
+    "quarto": {
+      "numero": 102,
+      "categoria": "standard"
+    },
+    "dataCheckin": {
+      "$date": "2026-04-18T18:00:00.000Z"
+    },
+    "dataCheckout": {
+      "$date": "2026-04-20T15:00:00.000Z"
+    },
+    "noites": 2,
+    "numHospedes": 1,
+    "precoDiariaCentavos": 28000,
+    "valorDiariasCentavos": 56000,
+    "status": "concluida",
+    "canal": "site",
+    "criadaEm": {
+      "$date": "2026-04-02T14:00:00.000Z"
+    },
+    "historicoStatus": [
+      {
+        "status": "criada",
+        "em": {
+          "$date": "2026-04-02T14:00:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "confirmada",
+        "em": {
+          "$date": "2026-04-02T14:05:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "concluida",
+        "em": {
+          "$date": "2026-04-20T15:00:00.000Z"
+        },
+        "por": "funcionario",
+        "porId": {
+          "$oid": "a30000000000000000000001"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "a50000000000000000000006"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000002"
+    },
+    "hospede": {
+      "nome": "Carlos Ferreira",
+      "email": "carlos.ferreira@email.com"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000302"
+    },
+    "quarto": {
+      "numero": 302,
+      "categoria": "familia"
+    },
+    "dataCheckin": {
+      "$date": "2026-05-02T18:00:00.000Z"
+    },
+    "dataCheckout": {
+      "$date": "2026-05-05T15:00:00.000Z"
+    },
+    "noites": 3,
+    "numHospedes": 4,
+    "precoDiariaCentavos": 42000,
+    "valorDiariasCentavos": 126000,
+    "status": "concluida",
+    "canal": "site",
+    "criadaEm": {
+      "$date": "2026-04-10T14:00:00.000Z"
+    },
+    "historicoStatus": [
+      {
+        "status": "criada",
+        "em": {
+          "$date": "2026-04-10T14:00:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "confirmada",
+        "em": {
+          "$date": "2026-04-10T14:05:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "concluida",
+        "em": {
+          "$date": "2026-05-05T15:00:00.000Z"
+        },
+        "por": "funcionario",
+        "porId": {
+          "$oid": "a30000000000000000000001"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "a50000000000000000000007"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000005"
+    },
+    "hospede": {
+      "nome": "Lucía Fernández",
+      "email": "lucia.fernandez@email.com"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000201"
+    },
+    "quarto": {
+      "numero": 201,
+      "categoria": "luxo"
+    },
+    "dataCheckin": {
+      "$date": "2026-07-10T18:00:00.000Z"
+    },
+    "dataCheckout": {
+      "$date": "2026-07-17T15:00:00.000Z"
+    },
+    "noites": 7,
+    "numHospedes": 2,
+    "precoDiariaCentavos": 65000,
+    "valorDiariasCentavos": 455000,
+    "status": "concluida",
+    "canal": "agencia",
+    "criadaEm": {
+      "$date": "2026-05-25T14:00:00.000Z"
+    },
+    "historicoStatus": [
+      {
+        "status": "criada",
+        "em": {
+          "$date": "2026-05-25T14:00:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "confirmada",
+        "em": {
+          "$date": "2026-05-25T14:05:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "concluida",
+        "em": {
+          "$date": "2026-07-17T15:00:00.000Z"
+        },
+        "por": "funcionario",
+        "porId": {
+          "$oid": "a30000000000000000000001"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "a50000000000000000000008"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000003"
+    },
+    "hospede": {
+      "nome": "Ana Beatriz Lima",
+      "email": "ana.lima@email.com"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000101"
+    },
+    "quarto": {
+      "numero": 101,
+      "categoria": "standard"
+    },
+    "dataCheckin": {
+      "$date": "2026-07-20T18:00:00.000Z"
+    },
+    "dataCheckout": {
+      "$date": "2026-07-22T15:00:00.000Z"
+    },
+    "noites": 2,
+    "numHospedes": 1,
+    "precoDiariaCentavos": 28000,
+    "valorDiariasCentavos": 56000,
+    "status": "concluida",
+    "canal": "site",
+    "criadaEm": {
+      "$date": "2026-07-01T14:00:00.000Z"
+    },
+    "historicoStatus": [
+      {
+        "status": "criada",
+        "em": {
+          "$date": "2026-07-01T14:00:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "confirmada",
+        "em": {
+          "$date": "2026-07-01T14:05:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "concluida",
+        "em": {
+          "$date": "2026-07-22T15:00:00.000Z"
+        },
+        "por": "funcionario",
+        "porId": {
+          "$oid": "a30000000000000000000001"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "a50000000000000000000009"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000006"
+    },
+    "hospede": {
+      "nome": "Rafael Souza",
+      "email": "rafael.souza@email.com"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000301"
+    },
+    "quarto": {
+      "numero": 301,
+      "categoria": "suite presidencial"
+    },
+    "dataCheckin": {
+      "$date": "2026-12-28T18:00:00.000Z"
+    },
+    "dataCheckout": {
+      "$date": "2027-01-02T15:00:00.000Z"
+    },
+    "noites": 5,
+    "numHospedes": 4,
+    "precoDiariaCentavos": 120000,
+    "valorDiariasCentavos": 600000,
+    "status": "confirmada",
+    "canal": "site",
+    "criadaEm": {
+      "$date": "2026-10-15T14:00:00.000Z"
+    },
+    "historicoStatus": [
+      {
+        "status": "criada",
+        "em": {
+          "$date": "2026-10-15T14:00:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "confirmada",
+        "em": {
+          "$date": "2026-10-15T14:05:00.000Z"
+        },
+        "por": "sistema"
+      }
+    ],
+    "observacoes": "Réveillon"
+  },
+  {
+    "_id": {
+      "$oid": "a50000000000000000000010"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000004"
+    },
+    "hospede": {
+      "nome": "John Smith",
+      "email": "john.smith@email.com"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000202"
+    },
+    "quarto": {
+      "numero": 202,
+      "categoria": "luxo"
+    },
+    "dataCheckin": {
+      "$date": "2026-04-25T18:00:00.000Z"
+    },
+    "dataCheckout": {
+      "$date": "2026-04-27T15:00:00.000Z"
+    },
+    "noites": 2,
+    "numHospedes": 2,
+    "precoDiariaCentavos": 58000,
+    "valorDiariasCentavos": 116000,
+    "status": "cancelada",
+    "canal": "site",
+    "criadaEm": {
+      "$date": "2026-04-05T14:00:00.000Z"
+    },
+    "historicoStatus": [
+      {
+        "status": "criada",
+        "em": {
+          "$date": "2026-04-05T14:00:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "confirmada",
+        "em": {
+          "$date": "2026-04-05T14:05:00.000Z"
+        },
+        "por": "sistema"
+      },
+      {
+        "status": "cancelada",
+        "em": {
+          "$date": "2026-04-10T16:00:00.000Z"
+        },
+        "por": "hospede",
+        "porId": {
+          "$oid": "a10000000000000000000004"
+        }
+      }
+    ]
+  }
+]

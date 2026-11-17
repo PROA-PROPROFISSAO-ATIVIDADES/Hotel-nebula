@@ -1,0 +1,250 @@
+[
+  {
+    "_id": {
+      "$oid": "a70000000000000000000001"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000001"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000001"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000001"
+    },
+    "tipo": "total",
+    "valorCentavos": 223000,
+    "metodo": "cartao_credito",
+    "status": "pago",
+    "dataPagamento": {
+      "$date": "2026-03-13T15:00:00.000Z"
+    },
+    "detalhes": {
+      "bandeira": "visa",
+      "final": "1111",
+      "parcelas": 2
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a70000000000000000000002"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000002"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000002"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000002"
+    },
+    "tipo": "total",
+    "valorCentavos": 74000,
+    "metodo": "pix",
+    "status": "pago",
+    "dataPagamento": {
+      "$date": "2026-03-24T15:00:00.000Z"
+    },
+    "detalhes": {
+      "txid": "NEBULA0002ABC"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a70000000000000000000003"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000003"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000003"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000001"
+    },
+    "tipo": "total",
+    "valorCentavos": 555000,
+    "metodo": "cartao_credito",
+    "status": "pago",
+    "dataPagamento": {
+      "$date": "2026-04-09T15:00:00.000Z"
+    },
+    "detalhes": {
+      "bandeira": "mastercard",
+      "final": "2222",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a70000000000000000000004"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000004"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000004"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000003"
+    },
+    "tipo": "total",
+    "valorCentavos": 209000,
+    "metodo": "boleto",
+    "status": "pago",
+    "dataPagamento": {
+      "$date": "2026-04-15T15:00:00.000Z"
+    },
+    "detalhes": {
+      "codigo": "34191.00000 00000.000000",
+      "vencimento": {
+        "$date": "2026-04-15T18:00:00.000Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a70000000000000000000005"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000005"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000005"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000004"
+    },
+    "tipo": "total",
+    "valorCentavos": 56000,
+    "metodo": "cartao_credito",
+    "status": "pago",
+    "dataPagamento": {
+      "$date": "2026-04-20T15:00:00.000Z"
+    },
+    "detalhes": {
+      "bandeira": "amex",
+      "final": "3333",
+      "parcelas": 1
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a70000000000000000000006"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000006"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000006"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000002"
+    },
+    "tipo": "total",
+    "valorCentavos": 159000,
+    "metodo": "pix",
+    "status": "pago",
+    "dataPagamento": {
+      "$date": "2026-05-05T15:00:00.000Z"
+    },
+    "detalhes": {
+      "txid": "NEBULA0006XYZ"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a70000000000000000000007"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000007"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000007"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000005"
+    },
+    "tipo": "total",
+    "valorCentavos": 609000,
+    "metodo": "cartao_credito",
+    "status": "pago",
+    "dataPagamento": {
+      "$date": "2026-07-17T15:00:00.000Z"
+    },
+    "detalhes": {
+      "bandeira": "visa",
+      "final": "4444",
+      "parcelas": 6
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a70000000000000000000008"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000008"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000008"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000003"
+    },
+    "tipo": "total",
+    "valorCentavos": 56000,
+    "metodo": "dinheiro",
+    "status": "pago",
+    "dataPagamento": {
+      "$date": "2026-07-22T15:00:00.000Z"
+    },
+    "detalhes": {}
+  },
+  {
+    "_id": {
+      "$oid": "a70000000000000000000009"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000009"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000006"
+    },
+    "tipo": "sinal",
+    "valorCentavos": 180000,
+    "metodo": "pix",
+    "status": "pago",
+    "dataPagamento": {
+      "$date": "2026-10-15T15:00:00.000Z"
+    },
+    "detalhes": {
+      "txid": "NEBULA0009SNL"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a70000000000000000000010"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000010"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000004"
+    },
+    "tipo": "sinal",
+    "valorCentavos": 116000,
+    "metodo": "cartao_credito",
+    "status": "reembolsado",
+    "dataPagamento": {
+      "$date": "2026-04-05T15:00:00.000Z"
+    },
+    "detalhes": {
+      "bandeira": "amex",
+      "final": "3333",
+      "parcelas": 1,
+      "reembolsadoEm": {
+        "$date": "2026-04-10T16:00:00.000Z"
+      }
+    }
+  }
+]

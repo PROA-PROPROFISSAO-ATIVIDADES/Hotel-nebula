@@ -1,0 +1,78 @@
+[
+  {
+    "_id": {
+      "$oid": "a30000000000000000000001"
+    },
+    "nome": "Paulo Mendes",
+    "cargo": "recepcionista",
+    "turno": "manhã",
+    "habilidades": [
+      "inglês",
+      "espanhol"
+    ],
+    "admissao": {
+      "$date": "2023-05-10T18:00:00.000Z"
+    },
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "a30000000000000000000002"
+    },
+    "nome": "Juliana Alves",
+    "cargo": "recepcionista",
+    "turno": "noite",
+    "habilidades": [
+      "inglês"
+    ],
+    "admissao": {
+      "$date": "2024-02-01T18:00:00.000Z"
+    },
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "a30000000000000000000003"
+    },
+    "nome": "Roberto Dias",
+    "cargo": "gerente",
+    "turno": "comercial",
+    "habilidades": [
+      "gestão",
+      "inglês",
+      "francês"
+    ],
+    "admissao": {
+      "$date": "2021-08-15T18:00:00.000Z"
+    },
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "a30000000000000000000004"
+    },
+    "nome": "Fernanda Rocha",
+    "cargo": "camareira",
+    "turno": "manhã",
+    "admissao": {
+      "$date": "2022-03-20T18:00:00.000Z"
+    },
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "a30000000000000000000005"
+    },
+    "nome": "Diego Martins",
+    "cargo": "concierge",
+    "turno": "tarde",
+    "habilidades": [
+      "inglês",
+      "turismo local"
+    ],
+    "admissao": {
+      "$date": "2024-07-01T18:00:00.000Z"
+    },
+    "ativo": true
+  }
+]

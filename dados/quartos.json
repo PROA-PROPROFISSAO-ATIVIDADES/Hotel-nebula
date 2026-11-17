@@ -1,0 +1,109 @@
+[
+  {
+    "_id": {
+      "$oid": "a20000000000000000000101"
+    },
+    "numero": 101,
+    "andar": 1,
+    "categoria": "standard",
+    "capacidade": 2,
+    "precoDiariaCentavos": 28000,
+    "caracteristicas": [
+      "wifi",
+      "ar-condicionado",
+      "tv"
+    ],
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "a20000000000000000000102"
+    },
+    "numero": 102,
+    "andar": 1,
+    "categoria": "standard",
+    "capacidade": 2,
+    "precoDiariaCentavos": 28000,
+    "caracteristicas": [
+      "wifi",
+      "ar-condicionado",
+      "tv",
+      "acessível"
+    ],
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "a20000000000000000000201"
+    },
+    "numero": 201,
+    "andar": 2,
+    "categoria": "luxo",
+    "capacidade": 3,
+    "precoDiariaCentavos": 65000,
+    "caracteristicas": [
+      "vista para o mar",
+      "banheira",
+      "varanda",
+      "minibar",
+      "wifi",
+      "ar-condicionado"
+    ],
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "a20000000000000000000202"
+    },
+    "numero": 202,
+    "andar": 2,
+    "categoria": "luxo",
+    "capacidade": 2,
+    "precoDiariaCentavos": 58000,
+    "caracteristicas": [
+      "vista para o mar",
+      "varanda",
+      "minibar",
+      "wifi",
+      "ar-condicionado"
+    ],
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "a20000000000000000000301"
+    },
+    "numero": 301,
+    "andar": 3,
+    "categoria": "suite presidencial",
+    "capacidade": 4,
+    "precoDiariaCentavos": 120000,
+    "caracteristicas": [
+      "vista para o mar",
+      "banheira",
+      "hidromassagem",
+      "sala de estar",
+      "minibar",
+      "wifi",
+      "ar-condicionado"
+    ],
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "a20000000000000000000302"
+    },
+    "numero": 302,
+    "andar": 3,
+    "categoria": "familia",
+    "capacidade": 5,
+    "precoDiariaCentavos": 42000,
+    "caracteristicas": [
+      "vista para a piscina",
+      "duas camas queen",
+      "wifi",
+      "ar-condicionado"
+    ],
+    "ativo": true
+  }
+]

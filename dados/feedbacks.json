@@ -1,0 +1,154 @@
+[
+  {
+    "_id": {
+      "$oid": "a80000000000000000000001"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000001"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000001"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000201"
+    },
+    "nota": 5,
+    "categorias": {
+      "limpeza": 5,
+      "atendimento": 5,
+      "conforto": 5
+    },
+    "comentario": "Vista incrível e atendimento impecável.",
+    "data": {
+      "$date": "2026-03-14T15:00:00.000Z"
+    },
+    "resposta": {
+      "funcionarioId": {
+        "$oid": "a30000000000000000000003"
+      },
+      "texto": "Obrigado, Mariana! Esperamos você de volta.",
+      "data": {
+        "$date": "2026-03-15T12:00:00.000Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a80000000000000000000002"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000002"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000002"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000101"
+    },
+    "nota": 3,
+    "categorias": {
+      "limpeza": 4,
+      "atendimento": 3,
+      "conforto": 2
+    },
+    "comentario": "Quarto simples, colchão poderia ser melhor.",
+    "data": {
+      "$date": "2026-03-25T15:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a80000000000000000000003"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000003"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000001"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000301"
+    },
+    "nota": 5,
+    "comentario": "A suíte presidencial vale cada centavo.",
+    "data": {
+      "$date": "2026-04-10T15:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a80000000000000000000004"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000004"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000003"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000202"
+    },
+    "nota": 4,
+    "categorias": {
+      "limpeza": 5,
+      "atendimento": 4,
+      "conforto": 4
+    },
+    "comentario": "Ótimo passeio de barco, café da manhã poderia ter mais opções.",
+    "data": {
+      "$date": "2026-04-16T15:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a80000000000000000000005"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000006"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000002"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000302"
+    },
+    "nota": 4,
+    "comentario": "Perfeito para a família, piscina excelente.",
+    "data": {
+      "$date": "2026-05-06T15:00:00.000Z"
+    },
+    "resposta": {
+      "funcionarioId": {
+        "$oid": "a30000000000000000000003"
+      },
+      "texto": "Que bom que gostaram!",
+      "data": {
+        "$date": "2026-05-07T12:00:00.000Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a80000000000000000000006"
+    },
+    "hospedagemId": {
+      "$oid": "a60000000000000000000007"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000005"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000201"
+    },
+    "nota": 5,
+    "categorias": {
+      "limpeza": 5,
+      "atendimento": 5,
+      "conforto": 5
+    },
+    "comentario": "Estadia perfeita, o spa é maravilhoso.",
+    "data": {
+      "$date": "2026-07-18T15:00:00.000Z"
+    }
+  }
+]

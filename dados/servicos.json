@@ -1,0 +1,56 @@
+[
+  {
+    "_id": {
+      "$oid": "a40000000000000000000001"
+    },
+    "nome": "Café da manhã",
+    "categoria": "alimentação",
+    "precoCentavos": 4500,
+    "unidade": "pessoa/dia"
+  },
+  {
+    "_id": {
+      "$oid": "a40000000000000000000002"
+    },
+    "nome": "Spa",
+    "categoria": "bem-estar",
+    "precoCentavos": 22000,
+    "unidade": "sessão"
+  },
+  {
+    "_id": {
+      "$oid": "a40000000000000000000003"
+    },
+    "nome": "Lavanderia",
+    "categoria": "conveniência",
+    "precoCentavos": 6000,
+    "unidade": "pacote"
+  },
+  {
+    "_id": {
+      "$oid": "a40000000000000000000004"
+    },
+    "nome": "Transfer aeroporto",
+    "categoria": "transporte",
+    "precoCentavos": 18000,
+    "unidade": "trecho"
+  },
+  {
+    "_id": {
+      "$oid": "a40000000000000000000005"
+    },
+    "nome": "Jantar no quarto",
+    "categoria": "alimentação",
+    "precoCentavos": 13000,
+    "unidade": "refeição"
+  },
+  {
+    "_id": {
+      "$oid": "a40000000000000000000006"
+    },
+    "nome": "Passeio de barco",
+    "categoria": "lazer",
+    "precoCentavos": 35000,
+    "unidade": "pessoa"
+  }
+]

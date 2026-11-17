@@ -1,0 +1,135 @@
+[
+  {
+    "_id": {
+      "$oid": "a10000000000000000000001"
+    },
+    "nome": "Mariana Costa",
+    "email": "mariana.costa@email.com",
+    "telefone": "+55 11 90000-0001",
+    "documento": {
+      "tipo": "CPF",
+      "numero": "000.000.001-00"
+    },
+    "nacionalidade": "BR",
+    "endereco": {
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "pais": "Brasil"
+    },
+    "preferencias": [
+      "andar alto",
+      "sem glúten"
+    ],
+    "fidelidade": {
+      "nivel": "ouro",
+      "pontos": 1800
+    },
+    "criadoEm": {
+      "$date": "2025-11-02T18:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a10000000000000000000002"
+    },
+    "nome": "Carlos Ferreira",
+    "email": "carlos.ferreira@email.com",
+    "telefone": "+55 21 90000-0002",
+    "documento": {
+      "tipo": "CPF",
+      "numero": "000.000.002-00"
+    },
+    "nacionalidade": "BR",
+    "endereco": {
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "pais": "Brasil"
+    },
+    "criadoEm": {
+      "$date": "2025-12-10T18:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a10000000000000000000003"
+    },
+    "nome": "Ana Beatriz Lima",
+    "email": "ana.lima@email.com",
+    "telefone": "+55 31 90000-0003",
+    "documento": {
+      "tipo": "CPF",
+      "numero": "000.000.003-00"
+    },
+    "nacionalidade": "BR",
+    "preferencias": [
+      "quarto silencioso"
+    ],
+    "fidelidade": {
+      "nivel": "prata",
+      "pontos": 600
+    },
+    "criadoEm": {
+      "$date": "2026-01-15T18:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a10000000000000000000004"
+    },
+    "nome": "John Smith",
+    "email": "john.smith@email.com",
+    "telefone": "+1 555 0100",
+    "documento": {
+      "tipo": "Passaporte",
+      "numero": "XX0000004"
+    },
+    "nacionalidade": "US",
+    "endereco": {
+      "cidade": "Austin",
+      "estado": "TX",
+      "pais": "EUA"
+    },
+    "criadoEm": {
+      "$date": "2026-02-01T18:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a10000000000000000000005"
+    },
+    "nome": "Lucía Fernández",
+    "email": "lucia.fernandez@email.com",
+    "telefone": "+54 11 5555-0005",
+    "documento": {
+      "tipo": "Passaporte",
+      "numero": "YY0000005"
+    },
+    "nacionalidade": "AR",
+    "preferencias": [
+      "viaja com pet"
+    ],
+    "criadoEm": {
+      "$date": "2026-04-20T18:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a10000000000000000000006"
+    },
+    "nome": "Rafael Souza",
+    "email": "rafael.souza@email.com",
+    "telefone": "+55 41 90000-0006",
+    "documento": {
+      "tipo": "CPF",
+      "numero": "000.000.006-00"
+    },
+    "nacionalidade": "BR",
+    "fidelidade": {
+      "nivel": "bronze",
+      "pontos": 100
+    },
+    "criadoEm": {
+      "$date": "2026-09-05T18:00:00.000Z"
+    }
+  }
+]

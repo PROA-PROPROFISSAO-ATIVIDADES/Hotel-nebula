@@ -1,0 +1,348 @@
+[
+  {
+    "_id": {
+      "$oid": "a60000000000000000000001"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000001"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000001"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000201"
+    },
+    "checkinReal": {
+      "$date": "2026-03-10T18:30:00.000Z"
+    },
+    "checkoutReal": {
+      "$date": "2026-03-13T14:50:00.000Z"
+    },
+    "funcionarioCheckinId": {
+      "$oid": "a30000000000000000000001"
+    },
+    "servicosConsumidos": [
+      {
+        "servicoId": {
+          "$oid": "a40000000000000000000002"
+        },
+        "nome": "Spa",
+        "quantidade": 1,
+        "valorUnitarioCentavos": 22000,
+        "data": {
+          "$date": "2026-03-11T20:00:00.000Z"
+        }
+      },
+      {
+        "servicoId": {
+          "$oid": "a40000000000000000000003"
+        },
+        "nome": "Lavanderia",
+        "quantidade": 1,
+        "valorUnitarioCentavos": 6000,
+        "data": {
+          "$date": "2026-03-12T20:00:00.000Z"
+        }
+      }
+    ],
+    "totalServicosCentavos": 28000,
+    "status": "encerrada"
+  },
+  {
+    "_id": {
+      "$oid": "a60000000000000000000002"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000002"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000002"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000101"
+    },
+    "checkinReal": {
+      "$date": "2026-03-22T18:30:00.000Z"
+    },
+    "checkoutReal": {
+      "$date": "2026-03-24T14:50:00.000Z"
+    },
+    "funcionarioCheckinId": {
+      "$oid": "a30000000000000000000002"
+    },
+    "servicosConsumidos": [
+      {
+        "servicoId": {
+          "$oid": "a40000000000000000000001"
+        },
+        "nome": "Café da manhã",
+        "quantidade": 4,
+        "valorUnitarioCentavos": 4500,
+        "data": {
+          "$date": "2026-03-23T20:00:00.000Z"
+        }
+      }
+    ],
+    "totalServicosCentavos": 18000,
+    "status": "encerrada"
+  },
+  {
+    "_id": {
+      "$oid": "a60000000000000000000003"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000003"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000001"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000301"
+    },
+    "checkinReal": {
+      "$date": "2026-04-05T18:30:00.000Z"
+    },
+    "checkoutReal": {
+      "$date": "2026-04-09T14:50:00.000Z"
+    },
+    "funcionarioCheckinId": {
+      "$oid": "a30000000000000000000001"
+    },
+    "servicosConsumidos": [
+      {
+        "servicoId": {
+          "$oid": "a40000000000000000000002"
+        },
+        "nome": "Spa",
+        "quantidade": 2,
+        "valorUnitarioCentavos": 22000,
+        "data": {
+          "$date": "2026-04-06T20:00:00.000Z"
+        }
+      },
+      {
+        "servicoId": {
+          "$oid": "a40000000000000000000004"
+        },
+        "nome": "Transfer aeroporto",
+        "quantidade": 1,
+        "valorUnitarioCentavos": 18000,
+        "data": {
+          "$date": "2026-04-05T20:00:00.000Z"
+        }
+      },
+      {
+        "servicoId": {
+          "$oid": "a40000000000000000000005"
+        },
+        "nome": "Jantar no quarto",
+        "quantidade": 1,
+        "valorUnitarioCentavos": 13000,
+        "data": {
+          "$date": "2026-04-07T20:00:00.000Z"
+        }
+      }
+    ],
+    "totalServicosCentavos": 75000,
+    "status": "encerrada"
+  },
+  {
+    "_id": {
+      "$oid": "a60000000000000000000004"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000004"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000003"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000202"
+    },
+    "checkinReal": {
+      "$date": "2026-04-12T18:30:00.000Z"
+    },
+    "checkoutReal": {
+      "$date": "2026-04-15T14:50:00.000Z"
+    },
+    "funcionarioCheckinId": {
+      "$oid": "a30000000000000000000002"
+    },
+    "servicosConsumidos": [
+      {
+        "servicoId": {
+          "$oid": "a40000000000000000000006"
+        },
+        "nome": "Passeio de barco",
+        "quantidade": 1,
+        "valorUnitarioCentavos": 35000,
+        "data": {
+          "$date": "2026-04-13T20:00:00.000Z"
+        }
+      }
+    ],
+    "totalServicosCentavos": 35000,
+    "status": "encerrada"
+  },
+  {
+    "_id": {
+      "$oid": "a60000000000000000000005"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000005"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000004"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000102"
+    },
+    "checkinReal": {
+      "$date": "2026-04-18T18:30:00.000Z"
+    },
+    "checkoutReal": {
+      "$date": "2026-04-20T14:50:00.000Z"
+    },
+    "funcionarioCheckinId": {
+      "$oid": "a30000000000000000000001"
+    },
+    "servicosConsumidos": [],
+    "totalServicosCentavos": 0,
+    "status": "encerrada"
+  },
+  {
+    "_id": {
+      "$oid": "a60000000000000000000006"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000006"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000002"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000302"
+    },
+    "checkinReal": {
+      "$date": "2026-05-02T18:30:00.000Z"
+    },
+    "checkoutReal": {
+      "$date": "2026-05-05T14:50:00.000Z"
+    },
+    "funcionarioCheckinId": {
+      "$oid": "a30000000000000000000001"
+    },
+    "servicosConsumidos": [
+      {
+        "servicoId": {
+          "$oid": "a40000000000000000000001"
+        },
+        "nome": "Café da manhã",
+        "quantidade": 6,
+        "valorUnitarioCentavos": 4500,
+        "data": {
+          "$date": "2026-05-03T20:00:00.000Z"
+        }
+      },
+      {
+        "servicoId": {
+          "$oid": "a40000000000000000000003"
+        },
+        "nome": "Lavanderia",
+        "quantidade": 1,
+        "valorUnitarioCentavos": 6000,
+        "data": {
+          "$date": "2026-05-04T20:00:00.000Z"
+        }
+      }
+    ],
+    "totalServicosCentavos": 33000,
+    "status": "encerrada"
+  },
+  {
+    "_id": {
+      "$oid": "a60000000000000000000007"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000007"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000005"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000201"
+    },
+    "checkinReal": {
+      "$date": "2026-07-10T18:30:00.000Z"
+    },
+    "checkoutReal": {
+      "$date": "2026-07-17T14:50:00.000Z"
+    },
+    "funcionarioCheckinId": {
+      "$oid": "a30000000000000000000002"
+    },
+    "servicosConsumidos": [
+      {
+        "servicoId": {
+          "$oid": "a40000000000000000000002"
+        },
+        "nome": "Spa",
+        "quantidade": 3,
+        "valorUnitarioCentavos": 22000,
+        "data": {
+          "$date": "2026-07-12T20:00:00.000Z"
+        }
+      },
+      {
+        "servicoId": {
+          "$oid": "a40000000000000000000006"
+        },
+        "nome": "Passeio de barco",
+        "quantidade": 2,
+        "valorUnitarioCentavos": 35000,
+        "data": {
+          "$date": "2026-07-14T20:00:00.000Z"
+        }
+      },
+      {
+        "servicoId": {
+          "$oid": "a40000000000000000000004"
+        },
+        "nome": "Transfer aeroporto",
+        "quantidade": 1,
+        "valorUnitarioCentavos": 18000,
+        "data": {
+          "$date": "2026-07-10T20:00:00.000Z"
+        }
+      }
+    ],
+    "totalServicosCentavos": 154000,
+    "status": "encerrada"
+  },
+  {
+    "_id": {
+      "$oid": "a60000000000000000000008"
+    },
+    "reservaId": {
+      "$oid": "a50000000000000000000008"
+    },
+    "hospedeId": {
+      "$oid": "a10000000000000000000003"
+    },
+    "quartoId": {
+      "$oid": "a20000000000000000000101"
+    },
+    "checkinReal": {
+      "$date": "2026-07-20T18:30:00.000Z"
+    },
+    "checkoutReal": {
+      "$date": "2026-07-22T14:50:00.000Z"
+    },
+    "funcionarioCheckinId": {
+      "$oid": "a30000000000000000000001"
+    },
+    "servicosConsumidos": [],
+    "totalServicosCentavos": 0,
+    "status": "encerrada"
+  }
+]
